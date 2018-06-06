@@ -3,3 +3,4 @@ cart_item_prices.push(5.30)
 puts cart_item_prices
 
 count = 1
+cart_item_prices.each do |price|
