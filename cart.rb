@@ -9,6 +9,12 @@
 # end
 
 cart_item_prices = [12.43, 19.89, 3.49, 75.00]
+big_ticket_prices = []
+cart_item_prices.each do |price|
+  if price >= 15
+      big_ticket_prices << price
+    end
+  end
 tax_included = []
 cart_item_prices.each do |price|
   price_with_tax = price * 1.08
