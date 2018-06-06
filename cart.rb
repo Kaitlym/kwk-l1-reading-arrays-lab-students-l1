@@ -15,10 +15,10 @@ cart_item_prices.each do |price|
       big_ticket_prices << price
     end
   end
-tax_included = []
-cart_item_prices.each do |price|
-  price_with_tax = price * 1.08
-  tax_included << price_with_tax
-end
+# tax_included = []
+# cart_item_prices.each do |price|
+#   price_with_tax = price * 1.08
+#   tax_included << price_with_tax
+# end
 
-puts tax_included
+# puts tax_included
