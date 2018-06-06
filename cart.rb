@@ -4,4 +4,4 @@ puts cart_item_prices
 
 count = 1
 cart_item_prices.each do |price|
-  puts "item #{count}"
+  puts "item #{count}: #{price}"
